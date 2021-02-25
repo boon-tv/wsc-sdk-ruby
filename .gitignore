@@ -26,3 +26,4 @@
 **/.wowzacli
 **/id_rsa*
 **/*.pem
+.idea/*
