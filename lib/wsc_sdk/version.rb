@@ -3,5 +3,5 @@
 
 module WscSdk
   # The current verison of the SDK.
-  VERSION       = "1.5"
+  VERSION       = "1.6"
 end
