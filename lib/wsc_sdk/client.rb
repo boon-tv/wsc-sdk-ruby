@@ -276,7 +276,7 @@ module WscSdk
 
       {
         'User-Agent'      => WscSdk::USER_AGENT,
-        'Wsc-Access-Key'  => access_key,
+        'Authorization'   => "Bearer #{access_key}",
         'Wsc-Timestamp'   => timestamp.to_s,
         'Wsc-Signature'   => signature,
         'Content-Type'    => content_type
